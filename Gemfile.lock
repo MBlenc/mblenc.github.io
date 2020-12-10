@@ -290,6 +290,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-spaceship
   jemoji
+  kramdown
   tzinfo-data
   wdm (~> 0.1.0)
 

@@ -8,6 +8,7 @@ paginate:            5
 permalink:           pretty
 plugins:
   - jekyll-spaceship
+markdown: kramdown
 
 # About/contact
 author:
