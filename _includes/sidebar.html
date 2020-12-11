@@ -5,6 +5,13 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
+    <center>
+      <p>
+        <a  href="{{ '/' | absolute_url }}"><img src="{{ 'assets/icon-6-white.svg' | absolute_url }}" alt = "logo" /></a>
+      </p>
+    </center>
+  </div>
+  <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
 
@@ -27,6 +34,16 @@
 
   </nav>
 
+  <div class="sidebar-item">
+    <!-- Add font awesome icons -->
+    <p>
+    <a href="#" class="fa fa-facebook fa-2x"></a>
+    <a href="#" class="fa fa-twitter fa-2x"></a>
+    <a href="#" class="fa fa-linkedin fa-2x"></a>
+    <a href="#" class="fa fa-github fa-2x"></a>
+    </p>
+  </div>
+  
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
