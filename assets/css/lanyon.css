@@ -556,3 +556,47 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+/* Social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa-facebook:hover{
+  color: #3B5998;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa-twitter:hover{
+  color:  #08a0e9;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+.fa-linkedin:hover{
+  color:  #0072b1;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa-github:hover{
+  color:  #6e5494;
+  text-decoration: none;
+}
+
+.fa:active{
+  text-decoration: none;
+}
+
+.fa:visited{
+  text-decoration: none;
+}
+
+.fa:link{
+  text-decoration: none;
+}
